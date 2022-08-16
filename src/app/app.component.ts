@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { LoginComponent } from './components/login/login.component';
+import  { SignupComponent } from './components/sign-up/sign-up.component'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'game-app';
+  
 }
