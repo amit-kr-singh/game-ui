@@ -7,7 +7,8 @@ import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/sign-up/sign-up.component';
 import  { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
-import { apiService } from './services/api.service'
+import { apiService } from './services/api.service';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,8 @@ import { apiService } from './services/api.service'
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [apiService],
   bootstrap: [AppComponent]
