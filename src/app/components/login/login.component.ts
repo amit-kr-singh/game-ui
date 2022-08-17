@@ -18,7 +18,7 @@ import {
 export class LoginComponent {
 
   loginForm = this.fb.group({
-    username: ['', Validators.required],
+    email: ['', Validators.required],
     password: ['', Validators.required],
   });
 
@@ -56,4 +56,5 @@ export class LoginComponent {
         console.log(error);
       });
   }
+  
 }
